@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Auto Market</title>
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--     <link rel="stylesheet" href="css/style.css"> -->
+  </head>
+  <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+        <div class="navbar-header">
+        <a class = "navbar-brand" href = #> Auto Market </a>
+        </div>
+        </div>
+        </nav>
+    <script>
+    function goBack() {
+      window.history.back()
+    }
+    </script>
+    
+    <div id = "tfheader">
+      <div class = "container">
+        <button onclick = "goBack()"> Go Back</button>
+        
+        <h1>
+ <%=@result%>
+  <%=@number%>
+   </h1>
+      </div>
+    </div>
+         <img src="<%=@image%>">
+  </body>
+</html>
